@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,13 +26,38 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+.meals-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px;
+  padding: 10px;
+ 
+}
+.single-meal{
+  border: 1px solid purple;
+  padding: 10px;
+}
+.single-meal img{
+  width: 100%;
+}
+.search-button{
+  border: 1px solid gray;
+  width: 150px;
+  height: 45px;
+  font-size: large;
+}
+.search-button:hover{
+  background-color: grey;
+  color: white;
 }
